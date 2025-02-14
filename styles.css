@@ -1,0 +1,651 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e1e2e, #3a3d60);
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Navigation Bar */
+nav {
+    background: rgba(20, 20, 30, 0.9);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #ff9800;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover, .active {
+    background: #ff9800;
+    color: black;
+    box-shadow: 0 0 10px #ff9800;
+}
+
+
+/* Banner */
+.banner {
+    width: 90%;
+    max-width: 1000px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1.5s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Cool Hover Animation */
+.banner:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 8px 20px rgba(255, 165, 0, 0.2);
+    background: rgba(60, 60, 100, 1);
+}
+
+
+/* Guidelines Section */
+.guidelines {
+    background: rgba(50, 50, 80, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    width: 70%;
+    margin: 20px auto;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out, background 0.3s ease;
+}
+
+.guidelines:hover {
+    transform: scale(1.02);
+    background: rgba(60, 60, 100, 1);
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+ul li:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: translateX(5px);
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    background: rgba(20, 20, 30, 0.9);
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    border-top: 2px solid #ff9800;
+}
+
+.icon-placeholder {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-placeholder:hover {
+    transform: rotate(360deg);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.user-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.user-icon:hover {
+    transform: rotate(360deg);
+}
+
+/* General Information Section */
+.info-section {
+    background: rgba(50, 50, 80, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    width: 70%;
+    margin: 20px auto;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out, background 0.3s ease;
+}
+
+.info-section:hover {
+    transform: scale(1.02);
+    background: rgba(60, 60, 100, 1);
+}
+/* Q&A Section */
+.qa-section {
+    background: rgba(50, 50, 80, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    width: 70%;
+    margin: 20px auto;
+    backdrop-filter: blur(10px);
+}
+
+.qa-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    text-align: left;
+    transition: 0.3s ease-in-out;
+    border-left: 5px solid #ff9800;
+}
+
+.qa-box h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #ff9800;
+}
+
+.qa-box p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: white;
+}
+
+.qa-box:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.02);
+}
+/* Keyframe Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Important Links Section */
+.links-section {
+    background: rgba(50, 50, 80, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    width: 70%;
+    margin: 20px auto;
+    backdrop-filter: blur(10px);
+}
+
+/* Link Box Styling */
+.link-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-left: 5px solid #ff9800;
+    animation: fadeInUp 0.6s ease-in-out;
+}
+
+.link-box h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #ff9800;
+}
+
+.link-box p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: white;
+}
+
+/* Link Button */
+.link-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    background: #49738b;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.link-button:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+
+/* Hover Effect for Link Boxes */
+.link-box:hover {
+    transform: scale(1.02);
+}
+
+/* Applications Section */
+.applications-section {
+    background: rgba(50, 50, 80, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    width: 70%;
+    margin: 20px auto;
+    backdrop-filter: blur(10px);
+}
+
+/* Application Box */
+.application-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-left: 5px solid #ff9800;
+    text-align: center;
+    animation: fadeInUp 0.6s ease-in-out;
+}
+
+/* Application Logos (Left & Right) */
+.application-box img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+/* Centers the Text Content */
+.application-content {
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Application Box Headings */
+.application-box h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #ff9800;
+}
+
+/* Application Box Description */
+.application-box p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: white;
+}
+
+/* Apply Button */
+.apply-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    background: #49738b;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.apply-button:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+
+/* Hover Effect for Application Boxes */
+.application-box:hover {
+    transform: scale(1.02);
+}
+/* Departments Section */
+.departments-section {
+    background: rgba(50, 50, 80, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    width: 70%;
+    margin: 20px auto;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+/* Department Box */
+.department-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    border-left: 5px solid #ff9800;
+    text-align: center;
+}
+
+/* Department Logos (Left & Right) */
+.dept-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+/* Centers the Text Content */
+.department-content {
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Department Box Headings */
+.department-box h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #ff9800;
+}
+
+/* Department Box Button */
+.dept-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    background: #49738b;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.dept-button:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+
+
+/* Ensure a smooth transition for all sections */
+.links-section,
+.applications-section,
+.departments-section,
+.qa-section {
+    transition: transform 0.3s ease-in-out; /* Smooth scaling transition */
+}
+
+/* Hover Effect */
+.links-section:hover,
+.applications-section:hover,
+.departments-section:hover,
+.qa-section:hover {
+    transform: scale(1.02);
+    background: rgba(60, 60, 100, 1);
+}
+
+/* Department Section */
+.department-section {
+    background: rgba(50, 50, 80, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    width: 70%;
+    margin: 50px auto;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Expand Effect */
+.department-section:hover {
+    transform: scale(1.02);
+}
+
+/* Department Box */
+.department-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjust if needed */
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.back-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.back-button:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.welcome-section h1 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+/* Main Box Section */
+.main-box {
+    background: rgba(50, 50, 80, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+/* Expand effect on hover */
+.main-box:hover {
+    transform: scale(1.02);
+    background: rgba(60, 60, 100, 1);
+}
+
+/* Welcome Text */
+.main-box h1 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.main-box p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+/* Home Links */
+.home-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Home Box Styling */
+.home-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    border-left: 5px solid #ff9800;
+}
+
+/* Expand effect on mini-box hover */
+.home-box:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+/* Mini-box Headers */
+.home-box h2 {
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+/* Mini-box Paragraphs */
+.home-box p {
+    color: white;
+    font-size: 16px;
+}
+
+.back-to-top {
+    margin-top: 10px;
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+    background-color: #e68900;
+}
+
+/* Scroll to Top Button (Now with Orange & Blue Gradient) */
+.scroll-top-btn {
+    background: linear-gradient(45deg, #ff9800, #49738b);
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-out, box-shadow 0.3s ease, background 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px; /* Adds space between footer content */
+}
+
+/* Cool Hover Effect (Bouncing) */
+.scroll-top-btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    background: linear-gradient(45deg, #ff8c00, #49738b); /* Slightly darker mix */
+}
+
+/* Ensure smooth transitions with visibility control */
+.fade-in {
+    animation: fadeInEffect 0.5s ease-in;
+}
+
+.fade-out {
+    animation: fadeOutEffect 0.4s ease-out;
+    pointer-events: none; /* Prevent accidental clicks during animation */
+}
+
+/* Smooth fade-in */
+@keyframes fadeInEffect {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Smooth fade-out */
+@keyframes fadeOutEffect {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(15px); /* Move it down slightly for smoother effect */
+    }
+}
