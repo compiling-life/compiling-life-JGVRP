@@ -403,9 +403,16 @@ footer
     padding: 20px;
     margin: 15px 0;
     border-radius: 10px;
-    transition: 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
     border-left: 5px solid #ff9800;
     text-align: center;
+    overflow: hidden;
+}
+
+.department-box:hover 
+{
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .dept-logo 
@@ -427,6 +434,12 @@ footer
     font-size: 22px;
     color: #ff9800;
 }
+
+.department-box a {
+    position: relative;
+    z-index: 5;
+}
+
 
 .dept-button 
 {
@@ -467,6 +480,7 @@ footer
 .department-section 
 {
     background: rgba(50, 50, 80, 0.9);
+    display: flex;
     padding: 25px;
     border-radius: 15px;
     width: 70%;
@@ -480,14 +494,12 @@ footer
     transform: scale(1.02);
 }
 
-.department-box 
+.departments-section .department-box:hover 
 {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 30px;
-    border-radius: 10px;
-    text-align: left;
-    line-height: 1.6;
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.3) !important;
 }
+
 
 .banner img 
 {
