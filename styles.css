@@ -411,7 +411,7 @@ footer
 
 .department-box:hover 
 {
-    transform: scale(1.05);
+    transform: scale(1.02);
     background: rgba(255, 255, 255, 0.3);
 }
 
@@ -496,10 +496,9 @@ footer
 
 .departments-section .department-box:hover 
 {
-    transform: scale(1.05);
+    transform: scale(1.02);
     background: rgba(255, 255, 255, 0.3) !important;
 }
-
 
 .banner img 
 {
