@@ -41,3 +41,14 @@ document.addEventListener("DOMContentLoaded", function ()
         });
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () 
+{
+    if (window.location.pathname.includes("links.html")) 
+    { 
+        document.querySelectorAll("a:not(nav a)").forEach(link => 
+        {
+            link.setAttribute("target", "_blank");
+        });
+    }
+});
