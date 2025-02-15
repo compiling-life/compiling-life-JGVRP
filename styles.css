@@ -1,5 +1,5 @@
-/* General Styling */
-body {
+body 
+{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -9,8 +9,8 @@ body {
     overflow-x: hidden;
 }
 
-/* Navigation Bar */
-nav {
+nav 
+{
     background: rgba(20, 20, 30, 0.9);
     padding: 15px 0;
     position: sticky;
@@ -20,7 +20,8 @@ nav {
     border-bottom: 2px solid #ff9800;
 }
 
-nav ul {
+nav ul 
+{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -29,11 +30,13 @@ nav ul {
     gap: 20px;
 }
 
-nav ul li {
+nav ul li 
+{
     display: inline;
 }
 
-nav ul li a {
+nav ul li a 
+{
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -42,15 +45,16 @@ nav ul li a {
     border-radius: 5px;
 }
 
-nav ul li a:hover, .active {
+nav ul li a:hover, .active 
+{
     background: #ff9800;
     color: black;
     box-shadow: 0 0 10px #ff9800;
 }
 
 
-/* Banner */
-.banner {
+.banner 
+{
     width: 90%;
     max-width: 1000px;
     height: 200px;
@@ -63,16 +67,16 @@ nav ul li a:hover, .active {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Cool Hover Animation */
-.banner:hover {
+.banner:hover 
+{
     transform: scale(1.01);
     box-shadow: 0px 8px 20px rgba(255, 165, 0, 0.2);
     background: rgba(60, 60, 100, 1);
 }
 
 
-/* Guidelines Section */
-.guidelines {
+.guidelines 
+{
     background: rgba(50, 50, 80, 0.9);
     padding: 25px;
     border-radius: 15px;
@@ -82,19 +86,22 @@ nav ul li a:hover, .active {
     transition: transform 0.3s ease-in-out, background 0.3s ease;
 }
 
-.guidelines:hover {
+.guidelines:hover 
+{
     transform: scale(1.02);
     background: rgba(60, 60, 100, 1);
 }
 
-ul {
+ul 
+{
     list-style-type: none;
     text-align: left;
     display: inline-block;
     padding: 0;
 }
 
-ul li {
+ul li 
+{
     font-size: 18px;
     background: rgba(255, 255, 255, 0.2);
     padding: 10px;
@@ -103,13 +110,14 @@ ul li {
     transition: 0.3s ease-in-out;
 }
 
-ul li:hover {
+ul li:hover 
+{
     background: rgba(255, 255, 255, 0.4);
     transform: translateX(5px);
 }
 
-/* Footer */
-footer {
+footer 
+{
     margin-top: 50px;
     padding: 15px;
     background: rgba(20, 20, 30, 0.9);
@@ -123,7 +131,8 @@ footer {
     border-top: 2px solid #ff9800;
 }
 
-.icon-placeholder {
+.icon-placeholder 
+{
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -132,23 +141,27 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
-.icon-placeholder:hover {
+.icon-placeholder:hover 
+{
     transform: rotate(360deg);
 }
 
-/* Animations */
-@keyframes fadeIn {
-    from {
+@keyframes fadeIn 
+{
+    from 
+    {
         opacity: 0;
         transform: translateY(-20px);
     }
-    to {
+    to 
+    {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-.user-icon {
+.user-icon 
+{
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -157,12 +170,13 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
-.user-icon:hover {
+.user-icon:hover 
+{
     transform: rotate(360deg);
 }
 
-/* General Information Section */
-.info-section {
+.info-section 
+{
     background: rgba(50, 50, 80, 0.9);
     padding: 25px;
     border-radius: 15px;
@@ -172,12 +186,14 @@ footer {
     transition: transform 0.3s ease-in-out, background 0.3s ease;
 }
 
-.info-section:hover {
+.info-section:hover 
+{
     transform: scale(1.02);
     background: rgba(60, 60, 100, 1);
 }
-/* Q&A Section */
-.qa-section {
+
+.qa-section 
+{
     background: rgba(50, 50, 80, 0.9);
     padding: 25px;
     border-radius: 15px;
@@ -186,7 +202,8 @@ footer {
     backdrop-filter: blur(10px);
 }
 
-.qa-box {
+.qa-box 
+{
     background: rgba(255, 255, 255, 0.2);
     padding: 15px;
     margin: 15px 0;
@@ -196,36 +213,42 @@ footer {
     border-left: 5px solid #ff9800;
 }
 
-.qa-box h2 {
+.qa-box h2 
+{
     margin: 0;
     font-size: 20px;
     color: #ff9800;
 }
 
-.qa-box p {
+.qa-box p 
+{
     margin-top: 5px;
     font-size: 16px;
     color: white;
 }
 
-.qa-box:hover {
+.qa-box:hover 
+{
     background: rgba(255, 255, 255, 0.3);
     transform: scale(1.02);
 }
-/* Keyframe Animation */
-@keyframes fadeInUp {
-    from {
+
+@keyframes fadeInUp 
+{
+    from 
+    {
         opacity: 0;
         transform: translateY(20px);
     }
-    to {
+    to 
+    {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-/* Important Links Section */
-.links-section {
+.links-section 
+{
     background: rgba(50, 50, 80, 0.9);
     padding: 25px;
     border-radius: 15px;
@@ -234,8 +257,8 @@ footer {
     backdrop-filter: blur(10px);
 }
 
-/* Link Box Styling */
-.link-box {
+.link-box 
+{
     background: rgba(255, 255, 255, 0.2);
     padding: 20px;
     margin: 15px 0;
@@ -246,20 +269,22 @@ footer {
     animation: fadeInUp 0.6s ease-in-out;
 }
 
-.link-box h2 {
+.link-box h2
+{
     margin: 0;
     font-size: 22px;
     color: #ff9800;
 }
 
-.link-box p {
+.link-box p 
+{
     margin-top: 5px;
     font-size: 16px;
     color: white;
 }
 
-/* Link Button */
-.link-button {
+.link-button 
+{
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
@@ -271,18 +296,19 @@ footer {
     transition: 0.3s ease-in-out;
 }
 
-.link-button:hover {
+.link-button:hover 
+{
     background: #e68900;
     transform: scale(1.05);
 }
 
-/* Hover Effect for Link Boxes */
-.link-box:hover {
+.link-box:hover 
+{
     transform: scale(1.02);
 }
 
-/* Applications Section */
-.applications-section {
+.applications-section 
+{
     background: rgba(50, 50, 80, 0.9);
     padding: 25px;
     border-radius: 15px;
@@ -291,8 +317,8 @@ footer {
     backdrop-filter: blur(10px);
 }
 
-/* Application Box */
-.application-box {
+.application-box 
+{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -306,35 +332,35 @@ footer {
     animation: fadeInUp 0.6s ease-in-out;
 }
 
-/* Application Logos (Left & Right) */
-.application-box img {
+.application-box img 
+{
     width: 70px;
     height: 70px;
     border-radius: 10px;
 }
 
-/* Centers the Text Content */
-.application-content {
+.application-content 
+{
     flex-grow: 1;
     text-align: center;
 }
 
-/* Application Box Headings */
-.application-box h2 {
+.application-box h2 
+{
     margin: 0;
     font-size: 22px;
     color: #ff9800;
 }
 
-/* Application Box Description */
-.application-box p {
+.application-box p 
+{
     margin-top: 5px;
     font-size: 16px;
     color: white;
 }
 
-/* Apply Button */
-.apply-button {
+.apply-button 
+{
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
@@ -346,17 +372,19 @@ footer {
     transition: 0.3s ease-in-out;
 }
 
-.apply-button:hover {
+.apply-button:hover 
+{
     background: #e68900;
     transform: scale(1.05);
 }
 
-/* Hover Effect for Application Boxes */
-.application-box:hover {
+.application-box:hover 
+{
     transform: scale(1.02);
 }
-/* Departments Section */
-.departments-section {
+
+.departments-section 
+{
     background: rgba(50, 50, 80, 0.9);
     padding: 25px;
     border-radius: 15px;
@@ -366,8 +394,8 @@ footer {
     text-align: center;
 }
 
-/* Department Box */
-.department-box {
+.department-box 
+{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -380,28 +408,28 @@ footer {
     text-align: center;
 }
 
-/* Department Logos (Left & Right) */
-.dept-logo {
+.dept-logo 
+{
     width: 70px;
     height: 70px;
     border-radius: 10px;
 }
 
-/* Centers the Text Content */
-.department-content {
+.department-content 
+{
     flex-grow: 1;
     text-align: center;
 }
 
-/* Department Box Headings */
-.department-box h2 {
+.department-box h2 
+{
     margin: 0;
     font-size: 22px;
     color: #ff9800;
 }
 
-/* Department Box Button */
-.dept-button {
+.dept-button 
+{
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
@@ -413,31 +441,31 @@ footer {
     transition: 0.3s ease-in-out;
 }
 
-.dept-button:hover {
+.dept-button:hover 
+{
     background: #e68900;
     transform: scale(1.05);
 }
 
-
-/* Ensure a smooth transition for all sections */
 .links-section,
 .applications-section,
 .departments-section,
-.qa-section {
-    transition: transform 0.3s ease-in-out; /* Smooth scaling transition */
+.qa-section 
+{
+    transition: transform 0.3s ease-in-out;
 }
 
-/* Hover Effect */
 .links-section:hover,
 .applications-section:hover,
 .departments-section:hover,
-.qa-section:hover {
+.qa-section:hover 
+{
     transform: scale(1.02);
     background: rgba(60, 60, 100, 1);
 }
 
-/* Department Section */
-.department-section {
+.department-section 
+{
     background: rgba(50, 50, 80, 0.9);
     padding: 25px;
     border-radius: 15px;
@@ -447,13 +475,13 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
-/* Hover Expand Effect */
-.department-section:hover {
+.department-section:hover 
+{
     transform: scale(1.02);
 }
 
-/* Department Box */
-.department-box {
+.department-box 
+{
     background: rgba(255, 255, 255, 0.2);
     padding: 30px;
     border-radius: 10px;
@@ -461,20 +489,23 @@ footer {
     line-height: 1.6;
 }
 
-.banner img {
+.banner img 
+{
     width: 100%;
     height: auto;
-    max-height: 200px; /* Adjust if needed */
+    max-height: 200px;
     object-fit: cover;
     border-radius: 15px;
 }
 
-.back-button-container {
+.back-button-container 
+{
     text-align: center;
     margin-top: 20px;
 }
 
-.back-button {
+.back-button 
+{
     display: inline-block;
     padding: 10px 20px;
     background: #ff9800;
@@ -485,31 +516,34 @@ footer {
     transition: 0.3s ease-in-out;
 }
 
-.back-button:hover {
+.back-button:hover 
+{
     background: #e68900;
     transform: scale(1.05);
 }
 
-/* Welcome Section */
-.welcome-section {
+.welcome-section 
+{
     text-align: center;
     padding: 40px;
 }
 
-.welcome-section h1 {
+.welcome-section h1 
+{
     font-size: 32px;
     color: white;
     margin-bottom: 10px;
 }
 
-.welcome-section p {
+.welcome-section p 
+{
     font-size: 18px;
     color: #ccc;
     margin-bottom: 30px;
 }
 
-/* Main Box Section */
-.main-box {
+.main-box 
+{
     background: rgba(50, 50, 80, 0.9);
     padding: 30px;
     border-radius: 15px;
@@ -520,34 +554,35 @@ footer {
     transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
 }
 
-/* Expand effect on hover */
-.main-box:hover {
+.main-box:hover 
+{
     transform: scale(1.02);
     background: rgba(60, 60, 100, 1);
 }
 
-/* Welcome Text */
-.main-box h1 {
+.main-box h1 
+{
     font-size: 32px;
     color: white;
     margin-bottom: 10px;
 }
 
-.main-box p {
+.main-box p 
+{
     font-size: 18px;
     color: #ccc;
     margin-bottom: 20px;
 }
 
-/* Home Links */
-.home-links {
+.home-links 
+{
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-/* Home Box Styling */
-.home-box {
+.home-box 
+{
     background: rgba(255, 255, 255, 0.2);
     padding: 20px;
     width: 250px;
@@ -558,25 +593,26 @@ footer {
     border-left: 5px solid #ff9800;
 }
 
-/* Expand effect on mini-box hover */
-.home-box:hover {
+.home-box:hover 
+{
     background: rgba(255, 255, 255, 0.3);
     transform: scale(1.05);
 }
 
-/* Mini-box Headers */
-.home-box h2 {
+.home-box h2 
+{
     color: #ff9800;
     margin-bottom: 10px;
 }
 
-/* Mini-box Paragraphs */
-.home-box p {
+.home-box p 
+{
     color: white;
     font-size: 16px;
 }
 
-.back-to-top {
+.back-to-top 
+{
     margin-top: 10px;
     padding: 8px 15px;
     font-size: 14px;
@@ -588,12 +624,13 @@ footer {
     transition: background 0.3s ease-in-out;
 }
 
-.back-to-top:hover {
+.back-to-top:hover 
+{
     background-color: #e68900;
 }
 
-/* Scroll to Top Button (Now with Orange & Blue Gradient) */
-.scroll-top-btn {
+.scroll-top-btn 
+{
     background: linear-gradient(45deg, #ff9800, #49738b);
     color: white;
     border: none;
@@ -607,56 +644,60 @@ footer {
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-top: 15px; /* Adds space between footer content */
+    margin-top: 15px;
 }
 
-/* Cool Hover Effect (Bouncing) */
-.scroll-top-btn:hover {
+.scroll-top-btn:hover 
+{
     transform: translateY(-3px) scale(1.05);
-    background: linear-gradient(45deg, #ff8c00, #49738b); /* Slightly darker mix */
+    background: linear-gradient(45deg, #ff8c00, #49738b);
 }
 
-/* Ensure smooth transitions with visibility control */
-body {
+body 
+{
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
 
-/* When the page is fully loaded, fade it in */
-body.loaded {
+body.loaded 
+{
     opacity: 1;
 }
 
-/* Fade-in effect when navigating to a new page */
-.fade-in {
+.fade-in 
+{
     animation: fadeInEffect 0.5s ease-in forwards;
 }
 
-/* Fade-out effect when leaving a page */
-.fade-out {
+.fade-out 
+{
     animation: fadeOutEffect 0.4s ease-out forwards;
-    pointer-events: none; /* Prevent accidental clicks during animation */
+    pointer-events: none;
 }
 
-/* Smooth fade-in */
-@keyframes fadeInEffect {
-    from {
+@keyframes fadeInEffect 
+{
+    from 
+    {
         opacity: 0;
         transform: translateY(-10px);
     }
-    to {
+    to 
+    {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-/* Smooth fade-out */
-@keyframes fadeOutEffect {
-    from {
+@keyframes fadeOutEffect 
+{
+    from 
+    {
         opacity: 1;
         transform: translateY(0);
     }
-    to {
+    to 
+    {
         opacity: 0;
         transform: translateY(15px);
     }
