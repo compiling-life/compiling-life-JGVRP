@@ -824,6 +824,7 @@ body.loaded
     font-size: 24px;
     color: #ff9800;
     margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 .hr-name 
