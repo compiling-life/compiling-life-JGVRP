@@ -781,3 +781,76 @@ body.loaded
 {
     background-color: #49738b;
 }
+
+.hr-section 
+{
+    background: rgba(50, 50, 80, 0.9);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 1100px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, background 0.3s ease;
+}
+
+.hr-section:hover
+{
+    transform: scale(1.01);
+    background: rgba(60, 60, 100, 1);
+}
+
+.hr-box 
+{
+    width: 1000px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 25px;
+    margin: 15px auto;
+    max-width: 850px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.hr-box:hover 
+{
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.02);
+}
+
+.hr-box h2 
+{
+    font-size: 24px;
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+.hr-name 
+{
+    font-weight: bold;
+    color: #7289da;
+    display: block;
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.discord-link 
+{
+    display: inline-block;
+    background: #7289da;
+    color: white;
+    width: 270px;
+    padding: 12px 0;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.2s ease-in-out;
+}
+
+.discord-link:hover 
+{
+    background: #5a6fb2;
+}
