@@ -924,3 +924,90 @@ body.loaded
 {
     background: #5a6fb2;
 }
+
+.gvfd-section {
+    max-width: 1000px;
+    margin: 50px auto; /* Adds space below the nav */
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 5px solid #ff9800;
+}
+
+/* Hover Effect for Main Section */
+.gvfd-section:hover {
+    transform: scale(1.01);
+}
+
+
+/* Titles */
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #da2f2f;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 26px;
+    color: #da2f2f;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #990000;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Rank & Division Sections */
+.rank-section, .division-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.rank-section:hover, .division-box:hover {
+    transform: scale(1.02);
+}
+
+/* Rank Formatting */
+.rank-category {
+    font-size: 22px;
+    color: #ff4444;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.rank-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    margin: 10px 0;
+    text-align: left;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+/* Rank Hover Effect */
+.rank-box:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+}
+
+/* Rank Titles */
+.rank-title {
+    font-size: 20px;
+    color: #ff6666;
+    margin-bottom: 5px;
+}
+
+/* Bullet Point List */
+.rank-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
