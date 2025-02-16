@@ -722,11 +722,11 @@ body.loaded
 .department-section 
 {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center content horizontally */
-    text-align: center; /* Center text alignment */
-    gap: 15px; /* Adds space between elements */
-    padding: 20px; /* Prevents text from touching edges */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 20px;
 }
 
 .departments-section:hover
@@ -735,40 +735,41 @@ body.loaded
     background: rgba(60, 60, 100, 1);
 }
 
-.department-section h1 {
-    color: #ffffff; /* White text for title */
+.department-section h1 
+{
+    color: #ffffff;
     font-size: 28px;
     font-weight: bold;
 }
 
-.department-box {
-    width: 140%; /* Adjust width */
+.department-box 
+{
+    width: 140%;
     max-width: 1000px;
-    background: rgba(255, 255, 255, 0.2); /* Dark gray box */
-    color: #ffffff; /* White text inside box */
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
-    align-items: center; /* Aligns logo & text */
-    justify-content: space-between; /* Logos on left & right */
-    gap: 15px; /* Adds space between logo & text */
-    
-    /* Proper spacing */
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
     margin: 10px auto;
 }
 
-.back-button-container {
+.back-button-container 
+{
     margin-top: 20px;
     text-align: center;
     width: 100%;
 }
 
-.back-button {
+.back-button 
+{
     display: inline-block;
     padding: 10px 15px;
-    background-color: #ff9800; /* Blue button */
+    background-color: #ff9800;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -776,6 +777,7 @@ body.loaded
     transition: 0.3s;
 }
 
-.back-button:hover {
-    background-color: #49738b; /* Darker blue on hover */
+.back-button:hover 
+{
+    background-color: #49738b;
 }
