@@ -52,3 +52,11 @@ document.addEventListener("DOMContentLoaded", function ()
         });
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () 
+{
+    document.querySelectorAll(".application-box a").forEach(link => 
+    {
+        link.setAttribute("target", "_blank");
+    });
+});
