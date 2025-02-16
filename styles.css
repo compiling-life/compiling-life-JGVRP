@@ -802,7 +802,7 @@ body.loaded
 
 .hr-box 
 {
-    width: 1000px;
+    width: 100%;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 12px;
     padding: 25px;
