@@ -200,6 +200,7 @@ footer
     width: 70%;
     margin: 20px auto;
     backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out, background 0.3s ease;
 }
 
 .qa-box 
@@ -233,6 +234,12 @@ footer
     transform: scale(1.02);
 }
 
+.qa-section:hover 
+{
+    transform: scale(1.01);
+    background: rgba(60, 60, 100, 1);
+}
+
 @keyframes fadeInUp 
 {
     from 
@@ -255,6 +262,13 @@ footer
     width: 70%;
     margin: 20px auto;
     backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out, background 0.3s ease;
+}
+
+.links-section:hover
+{
+    transform: scale(1.01);
+    background: rgba(60, 60, 100, 1);
 }
 
 .link-box 
@@ -315,6 +329,13 @@ footer
     width: 70%;
     margin: 20px auto;
     backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out, background 0.3s ease;
+}
+
+.applications-section:hover
+{
+    transform: scale(1.02);
+    background: rgba(60, 60, 100, 1);
 }
 
 .application-box 
@@ -392,6 +413,7 @@ footer
     margin: 20px auto;
     backdrop-filter: blur(10px);
     text-align: center;
+    transition: transform 0.3s ease-in-out, background 0.3s ease;
 }
 
 .department-box 
@@ -457,24 +479,7 @@ footer
 .dept-button:hover 
 {
     background: #e68900;
-    transform: scale(1.05);
-}
-
-.links-section,
-.applications-section,
-.departments-section,
-.qa-section 
-{
-    transition: transform 0.3s ease-in-out;
-}
-
-.links-section:hover,
-.applications-section:hover,
-.departments-section:hover,
-.qa-section:hover 
-{
     transform: scale(1.02);
-    background: rgba(60, 60, 100, 1);
 }
 
 .department-section 
@@ -712,4 +717,65 @@ body.loaded
         opacity: 0;
         transform: translateY(15px);
     }
+}
+
+.department-section 
+{
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text alignment */
+    gap: 15px; /* Adds space between elements */
+    padding: 20px; /* Prevents text from touching edges */
+}
+
+.departments-section:hover
+{
+    transform: scale(1.02);
+    background: rgba(60, 60, 100, 1);
+}
+
+.department-section h1 {
+    color: #ffffff; /* White text for title */
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.department-box {
+    width: 140%; /* Adjust width */
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.2); /* Dark gray box */
+    color: #ffffff; /* White text inside box */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+
+    display: flex;
+    align-items: center; /* Aligns logo & text */
+    justify-content: space-between; /* Logos on left & right */
+    gap: 15px; /* Adds space between logo & text */
+    
+    /* Proper spacing */
+    margin: 10px auto;
+}
+
+.back-button-container {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ff9800; /* Blue button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    background-color: #49738b; /* Darker blue on hover */
 }
