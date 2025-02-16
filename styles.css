@@ -856,7 +856,8 @@ body.loaded
     background: #5a6fb2;
 }
 
-.direct-section {
+.direct-section 
+{
     background: rgba(50, 50, 80, 0.9);
     border-radius: 12px;
     padding: 30px;
@@ -867,24 +868,28 @@ body.loaded
     transition: transform 0.3s ease-in-out, background 0.3s ease;
 }
 
-.direct-section:hover {
+.direct-section:hover 
+{
     transform: scale(1.01);
     background: rgba(60, 60, 100, 1);
 }
 
-.direct-section h1 {
+.direct-section h1 
+{
     font-size: 28px;
     color: white;
     margin-bottom: 15px;
 }
 
-.direct-section p {
+.direct-section p 
+{
     font-size: 18px;
     color: #ddd;
     margin-bottom: 20px;
 }
 
-.google-form-container {
+.google-form-container 
+{
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
@@ -894,14 +899,16 @@ body.loaded
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.google-form-container iframe {
+.google-form-container iframe 
+{
     width: 100%;
     height: 600px;
     border: none;
     border-radius: 8px;
 }
 
-.form-link {
+.form-link 
+{
     display: inline-block;
     background: #7289da;
     color: white;
@@ -913,6 +920,7 @@ body.loaded
     transition: background 0.2s ease-in-out;
 }
 
-.form-link:hover {
+.form-link:hover 
+{
     background: #5a6fb2;
 }
