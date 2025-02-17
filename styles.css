@@ -33,6 +33,7 @@ nav ul
 nav ul li 
 {
     display: inline;
+    border-right: 5px solid #ff9800;
 }
 
 nav ul li a 
@@ -108,6 +109,7 @@ ul li
     margin: 8px 0;
     border-radius: 5px;
     transition: 0.3s ease-in-out;
+    border-left: 5px solid #ff9800;
 }
 
 ul li:hover 
@@ -811,6 +813,7 @@ body.loaded
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-left: 5px solid #ff9800;
 }
 
 .hr-box:hover 
@@ -897,6 +900,7 @@ body.loaded
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-left: 5px solid #ff9800;
 }
 
 .google-form-container iframe 
@@ -925,107 +929,17 @@ body.loaded
     background: #5a6fb2;
 }
 
-.gvfd-section 
-{
-    max-width: 1000px;
-    margin: 50px auto;
-    padding: 30px;
-    text-align: center;
-    color: white;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-left: 5px solid #ff9800;
-}
-
-.gvfd-section:hover 
-{
-    transform: scale(1.01);
-}
-
-.title 
-{
-    font-size: 32px;
-    font-weight: bold;
-    color: #da2f2f;
-    margin-bottom: 20px;
-}
-
-.section-title 
-{
-    font-size: 26px;
-    color: #da2f2f;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #990000;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-.rank-section, .division-box 
-{
-    background: rgba(255, 255, 255, 0.1);
-    padding: 15px;
-    border-radius: 8px;
-    margin: 15px 0;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.rank-section:hover, .division-box:hover 
-{
-    transform: scale(1.02);
-}
-
-.rank-category 
-{
-    font-size: 22px;
-    color: #ff4444;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.rank-box 
-{
-    background: rgba(255, 255, 255, 0.1);
-    padding: 15px;
-    border-radius: 6px;
-    margin: 10px 0;
-    text-align: left;
-    transition: transform 0.2s ease, background 0.2s ease;
-}
-
-.rank-box:hover 
-{
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateX(5px);
-}
-
-.rank-title 
-{
-    font-size: 20px;
-    color: #ff6666;
-    margin-bottom: 5px;
-}
-
-.rank-box ul 
-{
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
 .wsp-section 
 {
     max-width: 1000px;
-    margin: 50px auto;
-    padding: 30px;
+    margin: 30px auto;
+    padding: 25px;
     text-align: center;
     color: white;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-left: 5px solid #ff9800;
 }
 
 .wsp-section:hover 
@@ -1033,68 +947,87 @@ body.loaded
     transform: scale(1.01);
 }
 
-.wsp-box 
-{
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.wsp-box h2 
-{
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 24px;
-    text-align: center;
-    color: #1e90ff;
-    display: block;
-}
-
-.wsp-title 
+.wsp-page-title 
 {
     font-size: 32px;
     font-weight: bold;
-    color: #1e90ff;
-    margin-bottom: 20px;
+    color: #2f6cda;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
-.wsp-section-title 
+.wsp-about 
 {
-    font-size: 26px;
-    color: #1e90ff;
-    margin-bottom: 10px;
-    display: inline-block;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #005bb5;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.wsp-rank-section, .wsp-division-box 
+.wsp-info-group 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.wsp-info-box 
 {
     background: rgba(255, 255, 255, 0.1);
     padding: 15px;
-    border-radius: 8px;
-    margin: 15px 0;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 6px;
+    width: 400px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.2s ease;
 }
 
-.wsp-rank-section:hover, .wsp-division-box:hover 
+.wsp-info-box:hover 
 {
-    transform: scale(1.02);
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.wsp-ranks 
+{
+    margin-bottom: 20px;
+}
+
+.wsp-rank-group 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wsp-rank-group:hover 
+{
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .wsp-rank-category 
 {
     font-size: 22px;
-    color: #1e90ff;
-    margin-bottom: 10px;
-    text-transform: uppercase;
     font-weight: bold;
+    color: white;
+    background: #4060bc;
+    padding: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.wsp-rank-container 
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
 }
 
 .wsp-rank-box 
@@ -1102,35 +1035,247 @@ body.loaded
     background: rgba(255, 255, 255, 0.1);
     padding: 15px;
     border-radius: 6px;
-    margin: 10px 0;
-    text-align: left;
+    width: 260px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease, background 0.2s ease;
 }
 
 .wsp-rank-box:hover 
 {
     background: rgba(255, 255, 255, 0.2);
-    transform: translateX(5px);
+    transform: translateY(-3px);
 }
 
-.wsp-rank-title 
+.wsp-divisions 
 {
-    font-size: 20px;
-    color: #87cefa;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.wsp-rank-box ul 
+.wsp-divisions:hover 
 {
-    list-style-type: disc;
-    padding-left: 20px;
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.wsp-division-group 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.wsp-division-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    width: 350px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.wsp-division-box:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.wsp-expectations 
+{
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wsp-expectations:hover 
+{
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .wsp-expectations-list 
 {
-    list-style-type: circle;
-    text-align: left;
-    padding-left: 20px;
-    font-size: 18px;
+    list-style: none;
+    padding: 0;
+}
+
+.wsp-expectations-list li 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 6px;
+    margin: 5px 0;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.wsp-expectations-list li:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+}
+
+.gvfd-section 
+{
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gvfd-section:hover 
+{
+    transform: scale(1.01);
+}
+
+.page-title 
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: #da2f2f;
     margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.gvfd-about 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-group 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.info-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    width: 400px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.info-box:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.gvfd-ranks 
+{
+    margin-bottom: 20px;
+}
+
+.rank-group 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rank-group:hover 
+{
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.rank-category 
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background: #bc4040;
+    padding: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.rank-container 
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.rank-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    width: 260px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.rank-box:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.gvfd-divisions 
+{
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gvfd-divisions:hover 
+{
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.division-group 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.division-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    width: 350px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.division-box:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
 }
