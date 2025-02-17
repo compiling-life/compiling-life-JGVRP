@@ -925,9 +925,10 @@ body.loaded
     background: #5a6fb2;
 }
 
-.gvfd-section {
+.gvfd-section 
+{
     max-width: 1000px;
-    margin: 50px auto; /* Adds space below the nav */
+    margin: 50px auto;
     padding: 30px;
     text-align: center;
     color: white;
@@ -938,21 +939,21 @@ body.loaded
     border-left: 5px solid #ff9800;
 }
 
-/* Hover Effect for Main Section */
-.gvfd-section:hover {
+.gvfd-section:hover 
+{
     transform: scale(1.01);
 }
 
-
-/* Titles */
-.title {
+.title 
+{
     font-size: 32px;
     font-weight: bold;
     color: #da2f2f;
     margin-bottom: 20px;
 }
 
-.section-title {
+.section-title 
+{
     font-size: 26px;
     color: #da2f2f;
     margin-bottom: 10px;
@@ -961,8 +962,8 @@ body.loaded
     padding-bottom: 5px;
 }
 
-/* Rank & Division Sections */
-.rank-section, .division-box {
+.rank-section, .division-box 
+{
     background: rgba(255, 255, 255, 0.1);
     padding: 15px;
     border-radius: 8px;
@@ -970,13 +971,13 @@ body.loaded
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Hover effect */
-.rank-section:hover, .division-box:hover {
+.rank-section:hover, .division-box:hover 
+{
     transform: scale(1.02);
 }
 
-/* Rank Formatting */
-.rank-category {
+.rank-category 
+{
     font-size: 22px;
     color: #ff4444;
     margin-bottom: 10px;
@@ -984,7 +985,8 @@ body.loaded
     font-weight: bold;
 }
 
-.rank-box {
+.rank-box 
+{
     background: rgba(255, 255, 255, 0.1);
     padding: 15px;
     border-radius: 6px;
@@ -993,21 +995,142 @@ body.loaded
     transition: transform 0.2s ease, background 0.2s ease;
 }
 
-/* Rank Hover Effect */
-.rank-box:hover {
+.rank-box:hover 
+{
     background: rgba(255, 255, 255, 0.2);
     transform: translateX(5px);
 }
 
-/* Rank Titles */
-.rank-title {
+.rank-title 
+{
     font-size: 20px;
     color: #ff6666;
     margin-bottom: 5px;
 }
 
-/* Bullet Point List */
-.rank-box ul {
+.rank-box ul 
+{
     list-style-type: disc;
     padding-left: 20px;
+}
+
+.wsp-section 
+{
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 5px solid #ff9800;
+}
+
+.wsp-section:hover 
+{
+    transform: scale(1.01);
+}
+
+.wsp-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wsp-box h2 
+{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+    color: #1e90ff;
+    display: block;
+}
+
+.wsp-title 
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: #1e90ff;
+    margin-bottom: 20px;
+}
+
+.wsp-section-title 
+{
+    font-size: 26px;
+    color: #1e90ff;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #005bb5;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wsp-rank-section, .wsp-division-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wsp-rank-section:hover, .wsp-division-box:hover 
+{
+    transform: scale(1.02);
+}
+
+.wsp-rank-category 
+{
+    font-size: 22px;
+    color: #1e90ff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.wsp-rank-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    margin: 10px 0;
+    text-align: left;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.wsp-rank-box:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+}
+
+.wsp-rank-title 
+{
+    font-size: 20px;
+    color: #87cefa;
+    margin-bottom: 5px;
+}
+
+.wsp-rank-box ul 
+{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.wsp-expectations-list 
+{
+    list-style-type: circle;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 18px;
+    margin-top: 10px;
 }
