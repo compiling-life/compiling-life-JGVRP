@@ -33,7 +33,10 @@ nav ul
 nav ul li 
 {
     display: inline;
-    border-right: 5px solid #ff9800;
+    border-left: 0px solid #ff9800;
+    border-right: 0px solid #ff9800;
+    border-top: 0px solid #ff9800;;
+    border-bottom: 0px solid #ff9800;
 }
 
 nav ul li a 
