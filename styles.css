@@ -1323,7 +1323,7 @@ body.loaded
 {
     font-size: 32px;
     font-weight: bold;
-    color: #F39900;
+    color: #f0c93d;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -1393,7 +1393,7 @@ body.loaded
     font-size: 22px;
     font-weight: bold;
     color: white;
-    background: #dc910f;
+    background: #eac645;
     padding: 10px;
     border-radius: 6px;
     display: inline-block;
@@ -1499,6 +1499,210 @@ body.loaded
 }
 
 .dot-expectations-list li:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+}
+
+
+.ocso-section 
+{
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ocso-section:hover 
+{
+    transform: scale(1.01);
+}
+
+.ocso-page-title 
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: #99906a;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.ocso-about 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ocso-about:hover
+{
+    transform: scale(1.01);
+}
+
+.ocso-info-group 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.ocso-info-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    width: 400px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.2s ease;
+    border-left: 5px solid #ff9800;
+}
+
+.ocso-info-box:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.ocso-ranks 
+{
+    margin-bottom: 20px;
+}
+
+.ocso-rank-group 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ocso-rank-group:hover 
+{
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ocso-rank-category 
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background: #867e5d;
+    padding: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.ocso-rank-container 
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.ocso-rank-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    width: 260px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.2s ease;
+    border-left: 5px solid #ff9800;
+}
+
+.ocso-rank-box:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.ocso-divisions 
+{
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ocso-divisions:hover 
+{
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ocso-division-group 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.ocso-division-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    width: 350px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.2s ease;
+    border-left: 5px solid #ff9800;
+}
+
+.ocso-division-box:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.ocso-expectations 
+{
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ocso-expectations:hover 
+{
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ocso-expectations-list 
+{
+    list-style: none;
+    padding: 0;
+}
+
+.ocso-expectations-list li 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 6px;
+    margin: 5px 0;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.ocso-expectations-list li:hover 
 {
     background: rgba(255, 255, 255, 0.2);
     transform: translateX(5px);
