@@ -1300,3 +1300,206 @@ body.loaded
 {
     transform: scale(1.01);
 }
+
+.dot-section 
+{
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dot-section:hover 
+{
+    transform: scale(1.01);
+}
+
+.dot-page-title 
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: #F39900;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.dot-about 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dot-about:hover
+{
+    transform: scale(1.01);
+}
+
+.dot-info-group 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.dot-info-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    width: 400px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.2s ease;
+    border-left: 5px solid #ff9800;
+}
+
+.dot-info-box:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.dot-ranks 
+{
+    margin-bottom: 20px;
+}
+
+.dot-rank-group 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dot-rank-group:hover 
+{
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dot-rank-category 
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background: #dc910f;
+    padding: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.dot-rank-container 
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.dot-rank-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    width: 260px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.2s ease;
+    border-left: 5px solid #ff9800;
+}
+
+.dot-rank-box:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.dot-divisions 
+{
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dot-divisions:hover 
+{
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dot-division-group 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.dot-division-box 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    width: 350px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.2s ease;
+    border-left: 5px solid #ff9800;
+}
+
+.dot-division-box:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.dot-expectations 
+{
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dot-expectations:hover 
+{
+    transform: scale(1.01);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dot-expectations-list 
+{
+    list-style: none;
+    padding: 0;
+}
+
+.dot-expectations-list li 
+{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 6px;
+    margin: 5px 0;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.dot-expectations-list li:hover 
+{
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+}
